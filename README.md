@@ -6,11 +6,15 @@ or perhaps you're traveling and want to see your home country's Amazon page.
 
 ## Usage
 
-`proxy.sh <somehost>`
+`proxy.sh <somehost> [extra SSH options]`
 
 Configure a SOCKS proxy for all HTTP[S] traffic through `<somehost>`. All web
 traffic will be automatically proxied. 
 
 To disable the proxy, send SIGTERM by typing `ctrl-c` (don't simply kill the
 terminal window).
+
+## What password?
+Your Mac will probably prompt you for a password to enable/disable the
+proxy. This is different from any SSH authentication!
 

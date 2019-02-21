@@ -18,4 +18,4 @@ sudo networksetup -setsocksfirewallproxystate Wi-Fi on
 
 echo "SOCKS proxy enabled."
 echo "Tunneling..."
-ssh -ND 9999 $1
+ssh -ND 9999 "${@:1}"
